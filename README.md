@@ -14,6 +14,11 @@ H(X|Y=v) = -sum(P(X=i|Y=v) * log2(P(X=i|Y=v)) for i in [1, n]
 H(X|Y) = sum(P(Y=v) * H(X|Y=v)) for v in Y
 ```
 
+## Related
+
+1 [No Free Lunch Theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem) *we can't really get a program to guess 
+a right function until it has seen all of examples*.
+
 # Link
 
 1.
