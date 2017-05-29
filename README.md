@@ -36,4 +36,4 @@ a right function until it has seen all of examples*.
 
 # Link
 
-1.
+1. [10-601, Spring 2015 by Tom Mitchell and Maria-Florina Balcan](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml)
