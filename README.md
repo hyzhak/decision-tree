@@ -10,6 +10,16 @@ So short decision tree is more preferable than long.
 - can approximate any discrete function
 - we should should choose first parameter which reduce maximum of entropy:
 
+## Reduced-Error Pruning (Overfitting) 
+
+Split data into training and validation set
+Create tree that classifies training set correctly
+Do until further pruning is harmful:
+1. Evaluate impact on validation set of pruning each possible node (plus those below it)
+2. Greedily remove the one that most improves validation set accuracy
+
+* produces smallest version of most accurate subtree
+
 ```
 I(X,Y) = H(X) - H(X|Y)
 
